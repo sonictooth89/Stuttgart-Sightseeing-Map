@@ -1,12 +1,12 @@
 import "./App.css";
-import { Main } from "./components/Main/Main";
+import { Body } from "./components/Body/Body";
 import { MyHeader } from "./components/MyHeader/MyHeader";
 
 export const App = () => {
     return (
         <div className="App">
             <MyHeader />
-            <Main />
+            <Body />
         </div>
     );
 };

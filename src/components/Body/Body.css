@@ -1,0 +1,19 @@
+.body {
+    display:flex;
+    flex-direction: row;
+    background-color: #c82323;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 10px 30px
+}
+
+.list {
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.main {
+    flex-basis: auto;
+    flex-grow: 2;
+}
