@@ -1,13 +1,14 @@
+import { dataBase } from "../../utils/db";
+import "./List.css";
+
 export const List = () => {
     return (
         <>
-            <ol>
-                <li>item</li>
-                <li>item</li>
-                <li>item</li>
-                <li>item</li>
-                <li>item</li>
-            </ol>
+            <ul>
+                {dataBase.map((el) => (
+                    <li>{el.place}</li>
+                ))}
+            </ul>
         </>
     );
 };

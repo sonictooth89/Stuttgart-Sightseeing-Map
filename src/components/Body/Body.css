@@ -8,12 +8,7 @@
     gap: 10px 30px
 }
 
-.list {
-    flex-basis: auto;
-    flex-grow: 1;
-}
 
 .main {
-    flex-basis: auto;
     flex-grow: 2;
 }

@@ -9,14 +9,14 @@ class Data {
 
 const place1 = new Data(
     "Nasze mieszkanie w Waiblingen",
-    "kliknij aby sprawdzic dojazd",
+    "Alfred-Leikam-Str. 65, 71334 Waiblingen",
     48.835399,
     9.3219832
 );
 
 const place2 = new Data(
     "Lotnisko w Stuttgarcie",
-    "Kliknij zeby sprawdzic dojazd",
+    "Flughafen Stuttgart",
     48.6876365,
     9.203382
 );
@@ -79,6 +79,13 @@ const place11 = new Data(
     9.2127327
 );
 
+const place12 = new Data(
+    "Metzingen Shopping City",
+    "Zakupowy szal",
+    48.536519,
+    9.2736244
+);
+
 export const dataBase = [
     place1,
     place2,
@@ -91,4 +98,5 @@ export const dataBase = [
     place9,
     place10,
     place11,
+    place12,
 ];

@@ -6,8 +6,12 @@ export const Body = () => {
     return (
         <>
             <div className="body">
-                <List className="list" />
-                <Main clasName="main" />
+                <div>
+                    <List />
+                </div>
+                <div className="main">
+                    <Main />
+                </div>
             </div>
         </>
     );
